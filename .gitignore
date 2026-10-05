@@ -1,0 +1,20 @@
+__pycache__/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.venv/
+.idea/
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+.DS_Store
+# Large generated data - regenerate with: python data/generate_data.py
+data/raw/
+data/processed/
+*.parquet
+*.duckdb
+*.egg-info/
+build/
+dist/
